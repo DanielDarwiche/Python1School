@@ -33,7 +33,6 @@ print(f"Plussar man {heltal} och {annatTal} blir summan {str(total)} ")
 jackaPris =2000
 inputrea= input("Ange en siffra som procent för rean:")
 reaProcent= int(inputrea)
-#jackaMedRea = int(jackaPris*reaProcent/100)
 jackaMedRea = jackaPris * (1 - reaProcent / 100)
 print(f"En jacka som kostar {jackaPris}, med {reaProcent}% rea kostar {round(jackaMedRea)}")
 #2b Gör om programmet så att användaren kan skriva in en procentsats.
