@@ -9,4 +9,3 @@ print(f"Det blir lite rörigt.. Såhär då! \n'{date.today()}'")
 
 framtida_datum = date.today() + timedelta(days=7)
 print(f"Datumet om 7 dagar är: {framtida_datum}")
-
